@@ -1,0 +1,138 @@
+# ========================
+# Python .gitignore
+# For FastAPI Projects
+# ========================
+
+# ------------------------
+# Byte-compiled / Optimized
+# ------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ------------------------
+# Virtual Environments
+# ------------------------
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ------------------------
+# Environment Variables
+# ------------------------
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# ------------------------
+# IDE / Editors
+# ------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ------------------------
+# Testing
+# ------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.log
+
+# ------------------------
+# Distribution / Packaging
+# ------------------------
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+.eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# ------------------------
+# Database
+# ------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ------------------------
+# Uploads / Media
+# ------------------------
+uploads/
+media/
+static/uploads/
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+logs/
+log/
+
+# ------------------------
+# OS Generated
+# ------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ------------------------
+# Docker
+# ------------------------
+.docker/
+
+# ------------------------
+# Misc
+# ------------------------
+*.bak
+*.tmp
+*.temp
+.cache/
+secrets.json
+config.local.py

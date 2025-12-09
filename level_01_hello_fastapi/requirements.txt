@@ -1,0 +1,7 @@
+# Level 1: Hello FastAPI - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
