@@ -1,0 +1,10 @@
+# Level 4: Request Body (Pydantic) - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Pydantic is included with FastAPI, but listing for clarity
+# pydantic>=2.0

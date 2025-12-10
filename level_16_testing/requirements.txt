@@ -1,0 +1,13 @@
+# Level 16: Testing - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Testing
+pytest==8.1.1
+httpx==0.27.0
+
+# Note: TestClient requires httpx

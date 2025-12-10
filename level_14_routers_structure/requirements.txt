@@ -1,0 +1,13 @@
+# Level 14: APIRouter & Project Structure - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Pydantic settings for configuration
+pydantic-settings==2.2.1
+
+# Email validation
+pydantic[email]>=2.0

@@ -1,0 +1,10 @@
+# Level 6: Form Data & File Uploads - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# REQUIRED for Form and File handling
+python-multipart==0.0.9

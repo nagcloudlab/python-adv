@@ -1,0 +1,22 @@
+# Level 15: Database Integration - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# SQLAlchemy - Database ORM
+sqlalchemy==2.0.25
+
+# Pydantic settings for configuration
+pydantic-settings==2.2.1
+
+# Email validation
+pydantic[email]>=2.0
+
+# For PostgreSQL (optional):
+# psycopg2-binary==2.9.9
+
+# For MySQL (optional):
+# pymysql==1.1.0

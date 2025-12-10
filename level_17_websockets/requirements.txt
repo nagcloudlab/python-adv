@@ -1,0 +1,14 @@
+# Level 17: WebSockets - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# WebSockets support (included with uvicorn[standard])
+websockets>=12.0
+
+# For testing WebSockets
+pytest==8.1.1
+httpx==0.27.0

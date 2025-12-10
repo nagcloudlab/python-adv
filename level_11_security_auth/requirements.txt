@@ -1,0 +1,19 @@
+# Level 11: Security & Authentication - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Password hashing with bcrypt
+passlib[bcrypt]==1.7.4
+
+# JWT token handling
+python-jose[cryptography]==3.3.0
+
+# Email validation for Pydantic
+pydantic[email]>=2.0
+
+# For OAuth2 form data
+python-multipart==0.0.9

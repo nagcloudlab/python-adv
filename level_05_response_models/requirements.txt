@@ -1,0 +1,11 @@
+# Level 5: Response Models - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Pydantic (included with FastAPI)
+# Email validation support
+pydantic[email]>=2.0

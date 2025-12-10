@@ -1,0 +1,10 @@
+# Level 7: Advanced Validation - Dependencies
+
+# FastAPI - Modern web framework for building APIs
+fastapi==0.115.0
+
+# Uvicorn - ASGI server to run FastAPI
+uvicorn[standard]==0.30.0
+
+# Pydantic with email validation support
+pydantic[email]>=2.0
