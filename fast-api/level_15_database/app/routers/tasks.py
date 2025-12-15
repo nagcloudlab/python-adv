@@ -44,7 +44,7 @@ def create_task(task: TaskCreate, db: Session = Depends(get_db)):
         due_date=task.due_date
     )
     
-    db.add(db_task)
+    db.add(db_task) # INSERT INTO tasks ...
     db.commit()
     db.refresh(db_task)
     
@@ -67,7 +67,7 @@ def list_tasks(
     """
     List tasks with optional filters
     """
-    query = db.query(Task)
+    query = db.query(Task) # SELECT * FROM tasks
     
     # Apply filters
     if status:

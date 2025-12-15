@@ -154,7 +154,7 @@ async def lifespan(app: FastAPI):
 
 ### 6. Health & Readiness Probes
 ```python
-@app.get("/health")
+@app.get("/live")
 def health():
     """Liveness probe - is the app running?"""
     return {"status": "healthy"}

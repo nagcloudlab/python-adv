@@ -71,6 +71,14 @@ def get_current_user(token: str = Header()):
 @app.get("/profile")
 def profile(user: dict = Depends(get_current_user)):
     return user
+
+@app.get("/dashboard")
+def profile(user: dict = Depends(get_current_user)):
+    return user
+
+@app.get("/settings")
+def profile(user: dict = Depends(get_current_user)):
+    return user    
 ```
 
 ### 4. Chained Dependencies
